@@ -20,12 +20,14 @@ class MainActivity : AppCompatActivity() {
 
         botonVerdad.setOnClickListener { view: View ->
             val muestraMensaje = Toast.makeText(this, R.string.correcto_toast, Toast.LENGTH_SHORT)
+            muestraMensaje.setGravity(Gravity.TOP, 0, 130)
             muestraMensaje.show()
         }
 
         botonFalso.setOnClickListener { view: View ->
 
             val muestraMensaje = Toast.makeText(this, R.string.incorrecto_toast, Toast.LENGTH_SHORT)
+            muestraMensaje.setGravity(Gravity.TOP, 0, 130)
             muestraMensaje.show()
         }
     }
