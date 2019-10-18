@@ -8,27 +8,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
-            android:text="@string/pregunta_text" />
+            android:text="@string/question_1"
+            android:id="@+id/textoPregunta"/>
     <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
         <Button
                 android:id="@+id/verdad_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/verdad_button"
-                android:textAllCaps="false"
-                android:background="@color/colorDani"
-                />
+                android:textAllCaps="false" />
         <Button
                 android:id="@+id/falso_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/falso_button"
                 android:textAllCaps="false"
-                android:background="@color/colorDani"
                 />
     </LinearLayout>
 
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/botonAnterior"
+                    android:layout_width="37dp"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@mipmap/arrow_left" />
+
+            <Button
+                    android:id="@+id/botonSiguiente"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@mipmap/arrow_right" />
+
+        </LinearLayout>
 </LinearLayout>

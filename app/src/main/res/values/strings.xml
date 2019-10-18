@@ -9,4 +9,16 @@
     <string name="correcto_toast">Correcto</string>
     <string name="incorrecto_toast">Incorrecto</string>
 
+    <string name="siguiente_button">Siguiente</string>
+    <string name="anterior_button">Anterior</string>
+    <!-- AGREGANDO PREGUNTAS:-->
+    <string name="question_1">Punata es el municipio considerado como la tierra del charango. </string>
+    <string name="question_2">La chicha Cochabambina se elabora en base al grano de trigo.</string>
+    <string name="question_3">La tierra de las flores se encuentra en Tiquipaya. </string>
+    <string name="question_4">El cristo de la concordia fue construido en recuerdo a la visita de Maria teresa de    Calcuta.</string>
+    <string name="question_5">Simon I. Patiño fue el Magnate del Estaño que nacio en CBBA. </string>
+    <string name="question_6">13 Provincias tiene el Departamento de Cochabamba. </string>
+    <string name="question_7">Santa vera cruz es una festividad sobre la Fertilidad y abundancia. </string>
+    <string name="question_8">Segun los relatos, la Virgen de Urkupiña se le Aparecio a un Parroco del lugar. </string>
+
 </resources>
